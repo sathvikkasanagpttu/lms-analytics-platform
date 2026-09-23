@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_enrollment
+    description: Clean enrollment records from the transactional fact source.
+    columns:
+      - name: enrollment_id
+        tests: [not_null, unique]
+  - name: stg_activity
+    description: Clean atomic learning activity events.
+    columns:
+      - name: activity_id
+        tests: [not_null, unique]
+  - name: fct_course_performance
+    description: Gold course-level enrollment, completion and revenue metrics.
+  - name: fct_learning_effectiveness
+    description: Gold learning engagement and assessment metrics.

@@ -1,0 +1,12 @@
+lms_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: lms
+      password: lms
+      port: 5432
+      dbname: lms
+      schema: analytics
+      threads: 4

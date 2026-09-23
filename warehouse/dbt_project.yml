@@ -1,0 +1,12 @@
+name: lms_analytics
+version: '1.0.0'
+config-version: 2
+profile: lms_analytics
+model-paths: ["models"]
+seed-paths: ["seeds"]
+models:
+  lms_analytics:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

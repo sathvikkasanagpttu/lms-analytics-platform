@@ -1,0 +1,18 @@
+LMS Web/Mobile App
+        |
+        v
+Backend API Services
+   |             |
+   v             v
+PostgreSQL     Event Bus
+   |             |
+   +-------> Bronze / Raw
+                 |
+                 v
+          Silver / Clean
+                 |
+                 v
+          Gold / Star Schema
+             /       \
+            v         v
+          BI       LMS Analytics API

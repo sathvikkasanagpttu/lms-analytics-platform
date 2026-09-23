@@ -1,0 +1,3 @@
+{"event_id": "evt001", "event_name": "video_played", "occurred_at": "2026-09-23T08:00:00Z", "user_id": "USR001", "course_id": "CRS001", "module_id": "MOD001", "session_id": "SES001"}
+{"event_id": "evt002", "event_name": "video_progress", "occurred_at": "2026-09-23T08:08:00Z", "user_id": "USR001", "course_id": "CRS001", "module_id": "MOD001", "session_id": "SES001", "properties": {"position_seconds": 480, "video_length_seconds": 600}}
+{"event_id": "evt003", "event_name": "quiz_submitted", "occurred_at": "2026-09-23T08:20:00Z", "user_id": "USR001", "course_id": "CRS001", "module_id": "MOD002", "session_id": "SES001", "properties": {"score": 9, "max_score": 10, "attempt": 1}}
